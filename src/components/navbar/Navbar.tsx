@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import DarkModeToggler from "../darkmodetoggler/DarkModeToggler";
 
 interface NavLinks {
   title: string;
@@ -15,6 +16,11 @@ const links: NavLinks[] = [
   {
     title: "Dashboard",
     url: "/dashboard",
+    id: 2,
+  },
+  {
+    title: "blog",
+    url: "/blog",
     id: 2,
   },
   {
@@ -37,10 +43,9 @@ const links: NavLinks[] = [
 const Navbar = () => {
   return (
     <div className="flex justify-between items-center h-24 bold text-2xl ">
-      <Link href={links[0].url} key={links[0].id}>
-        Blog
-      </Link>
+      <Link href={"/"}>Blog</Link>
       <div className="flex gap-4 semibold text-base">
+        <DarkModeToggler />
         {links.map((link: NavLinks) => {
           return (
             <Link href={link.url} key={link.id}>

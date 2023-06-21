@@ -1,5 +1,6 @@
 import Footer from "@/components/footer/Footer";
 import Navbar from "@/components/navbar/Navbar";
+import { ThemeProvider } from "@/lib/context/ThemeContext";
 import "@/styles/globals.css";
 import { Inter } from "next/font/google";
 
@@ -18,11 +19,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="container flex flex-col justify-between">
-          <Navbar />
-          {children}
-          <Footer />
-        </div>
+        <ThemeProvider>
+          <div className={`container flex flex-col justify-between ${"theme"}`}>
+            <Navbar />
+            {children}
+            <Footer />
+          </div>
+        </ThemeProvider>
       </body>
     </html>
   );
