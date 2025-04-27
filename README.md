@@ -1,6 +1,14 @@
 # Next.js Blog
 
 A modern blog application built with Next.js, featuring a clean and responsive design. This project serves as a personal blog platform with a focus on performance and user experience.
+![Screenshot 2025-04-27 at 10 16 50 PM](https://github.com/user-attachments/assets/40fe6c08-0d41-4695-ae6a-7d73a5057b05)
+![Screenshot 2025-04-27 at 10 16 42 PM](https://github.com/user-attachments/assets/6567ca41-b04f-4821-9479-59e065aced61)
+![Screenshot 2025-04-27 at 10 16 34 PM](https://github.com/user-attachments/assets/7c01dfc7-5117-4b6a-b707-42fbe57b2e14)
+![Screenshot 2025-04-27 at 10 16 24 PM](https://github.com/user-attachments/assets/f89963f6-15a8-4696-bef4-5d1fbd15a4c8)
+![Screenshot 2025-04-27 at 10 16 14 PM](https://github.com/user-attachments/assets/ad8a50e0-7e46-48f9-ae43-072cde24e2bc)
+![Screenshot 2025-04-27 at 10 16 03 PM](https://github.com/user-attachments/assets/995bd419-0379-4219-a646-45ca092f979b)
+![Screenshot 2025-04-27 at 10 15 51 PM](https://github.com/user-attachments/assets/5d115367-1eac-4d99-80ed-e7505aa4d99f)
+
 
 ## Features
 
